@@ -1,0 +1,48 @@
+.container11{
+    padding: 0 5%;
+    border-top: 1px solid #e2e2e2;
+}
+.main11{
+    padding: 100px 0;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.main11_div{
+    width: calc(33% - 50px);
+    display: flex;
+    flex-direction: column;
+}
+.main11_div h2{
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: .5px;
+}
+.main11_div img{
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+.main11_div p{
+    margin-bottom: 20px;
+    color: #333;
+    line-height: 1.6;
+
+}
+.main11_div a{
+    margin-bottom: 20px;
+    color: #333;
+    transition: .4s;
+}
+#aaa{
+    color: #03d41c;
+}
+.main11_div a:hover{
+    margin-bottom: 20px;
+    color: #03d41c;
+}

@@ -1,0 +1,234 @@
+.container{
+    overflow: hidden;
+}
+
+.main_slider_item {
+    background: rgba(0, 0, 0, .30) url('img/../../../img/slide-1.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    height: 85vh;
+}
+
+.main_slider_item h2 {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.main_slider_item h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.shop_link a:nth-child(1) {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: background-color .3s ease-in-out,  border-color .15s ease .15s;
+    background-color: #000;
+    font-weight: 400;
+    padding: 12px 25px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.shop_link a:nth-child(1):hover {
+    background-color: #03d41c;
+}
+
+.shop_link a:nth-child(2) {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: background-color .3s ease-in-out,  border-color .15s ease .15s;
+    background-color: #03d41c;
+    font-weight: 400;
+    padding: 12px 25px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.shop_link a:nth-child(2):hover {
+    background-color: #000;
+}
+
+
+
+
+.main_slider_item_2 {
+    background: rgba(0, 0, 0, .30) url('img/../../../img/slide-2.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    height: 85vh;
+}
+
+
+
+.main_slider_item_2 h2 {
+    font-size: 44px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.shop_link_2 a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: background-color .3s ease-in-out,  border-color .15s ease .15s;
+    background-color: #03d41c;
+    font-weight: 400;
+    padding: 12px 25px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.shop_link_2 a:hover {
+    background-color: #000;
+}
+
+
+
+
+
+
+.main_slider_item_3 {
+    background: rgba(0, 0, 0, .30) url('img/../../../img/slide-3.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    padding: 75px;
+    color: #fff;
+    height: 85vh;
+}
+
+
+
+.main_slider_item_3 h2 {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.main_slider_item_3 h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+
+
+.shop_link_3 a:nth-child(1) {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 10px 10px 0px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: background-color .3s ease-in-out,  border-color .15s ease .15s;
+    background-color: #03d41c;
+    font-weight: 400;
+    padding: 12px 25px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.shop_link_3 a:nth-child(1):hover {
+    background-color: #000;
+}
+
+.shop_link_3 a:nth-child(2) {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: background-color .3s ease-in-out,  border-color .15s ease .15s;
+    background-color: #000;
+    font-weight: 400;
+    padding: 12px 25px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.shop_link_3 a:nth-child(2):hover {
+    background-color: #03d41c;
+}
+
+
+
+
+.slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.prev-btn,
+.next-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #4d4f52;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 20px;
+    border: none;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.prev-btn,
+.next-btn i {
+    color: #fff;
+    font-size: 25px;
+    
+}
+

@@ -1,0 +1,77 @@
+.container7{
+    padding: 0 5%;
+    background-color: #f8f8f8;
+}
+.main7{
+    padding: 80px 0 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.main7_div{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.line7{
+    border-bottom: 1px solid #03d41c;
+    width: 70px;
+    margin: 15px auto 40px;
+}
+.main7_div h4{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: .5px;
+}
+.main_item7{
+    display: flex;
+    justify-content: space-between;
+}
+.main_item7_img{
+    width: calc(33% - 20px);
+}
+
+.main_item7_img img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 320ms ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main_item7_img:hover img {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+.main_item7_text{
+    margin-top: 25px;
+}
+.main_item7_text h6{
+    font-size: 18px;
+    line-height: 1.44444;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.main_item7_text a{
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 2;
+    font-weight: 400;
+    color: #888;
+    transition: .4s;
+}
+.main_item7_text a:hover{
+    font-size: 18px;
+    color: #03d41c;
+}
+.main_item7_text p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 2;
+    font-weight: 400;
+    color: #333;
+}
